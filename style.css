@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.top-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background: linear-gradient(to bottom, lightblue, white);
+}
+.me{
+    position: relative;
+    width: 10%;
+    top: -190px;
+    border-radius: 1000px;
+    border: 2px solid;
+    border-color: rgb(77, 130, 254);
+}
+.name{
+    display: flex;
+    font-family: "MuseoModerno", sans-serif;
+    color: rgb(55, 189, 251);
+    font-size: 4rem;
+    justify-content: center;
+    position: relative;
+    top: -200px;
+    text-align: center;
+}
+.interest{
+    font-family: "Noto Serif Display", serif;
+    font-weight: bolder;
+    font-size: x-large;
+    position: relative;
+    color: rgb(255, 101, 101);
+    left: 50px;
+    bottom: 200px;
+}
+#about{
+    font-family: "MuseoModerno", sans-serif;
+    background-color: rgba(154, 230, 249, 0.61);
+    position: relative;
+    top: -350px;
+}
+.lead{
+    color: black;
+}
+.title{
+    font-family: "MuseoModerno", sans-serif;
+    font-weight: 400;
+    position: relative;
+    left: 800px;
+    top: -300px;
+}
+.card{
+    position: relative;
+    left: 450px;
+    top: -200px;
+}
+.card-1{
+    position: relative;
+    left: 850px;
+    top: -570px;
+}
+.album{
+    position: relative;
+    left: -400px;
+}
+.py-3 {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+  }
+  .my-4 {
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+  *, ::after, ::before {
+    box-sizing: border-box;
+  }
+  .foot{
+    position: relative;
+    left: 420px;
+  }
